@@ -6,6 +6,11 @@ html {
   box-sizing: border-box;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body,
 html {
   margin: 0;
@@ -14,4 +19,13 @@ html {
 
 *, *:before, *:after {
   box-sizing: inherit;
+}
+
+.content-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
 }
