@@ -15,7 +15,26 @@ const Header = () => {
       <h1>Wait ! your order in progress.</h1>
       <h2>Lorem ipsum dolor sit amet, consectetur adipiscing </h2>
     </div>
-
+    <div className={headerStyles.steps}>
+      <ul>
+        <li>
+          <img src="" alt="" />
+          <p>Step 1 : Cart Review</p>
+        </li>
+        <li>
+          <img src="" alt="" />
+          <p>Step 2 : Checkout</p>
+        </li>
+        <li>
+          <img src="" alt="" />
+          <p>Step 3 : Special Offer</p>
+        </li>
+        <li>
+          <img src="" alt="" />
+          <p>Step 4 : Confirmation</p>
+        </li>
+      </ul>
+    </div>
     </header>
   )
 }
