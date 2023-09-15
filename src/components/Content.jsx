@@ -47,22 +47,28 @@ const Content = () => {
             <img src="/src/assets/percentage.svg" alt="percentage icon"/>
             <p>Save <span>53%</span> and get <span>6 extra Clarifision</span> for only <span>$14 Each.</span></p>
           </div>
-          <button>
-            <p>Yes - Claim my discount</p>
-            <AiOutlineArrowRight />
-          </button>
-          <div className={contentStyles.pay}>
-            <div>
-              <p>Free shipping</p>
+          <section className={contentStyles.claimSection}>
+            <button>
+              <p>Yes - Claim my discount</p>
+              <AiOutlineArrowRight />
+            </button>
+            <div className={contentStyles.pay}>
+              <div>
+                <p>Free shipping</p>
+              </div>
+              <div>
+                <img src="/src/assets/lock-mini.svg" alt="lock icon" />
+                <p>Secure 256-bit SSL encryption.</p>
+              </div>
+              <div>
+                <img src="/src/assets/pay-methods.svg" alt="pay methods icons" />
+              </div>
             </div>
             <div>
-              <img src="/src/assets/lock.svg" alt="lock icon" />
-              <p>Secure 256-bit SSL encryption.</p>
+              <a href="#">No thanks, I don&apos;t want this</a>
             </div>
-            <div>
-              <img src="/src/assets/pay-methods.svg" alt="pay methods icons" />
-            </div>
-          </div>
+          </section>
+
         </div>
     </main>
   )
