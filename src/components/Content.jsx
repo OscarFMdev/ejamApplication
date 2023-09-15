@@ -51,6 +51,18 @@ const Content = () => {
             <p>Yes - Claim my discount</p>
             <AiOutlineArrowRight />
           </button>
+          <div className={contentStyles.pay}>
+            <div>
+              <p>Free shipping</p>
+            </div>
+            <div>
+              <img src="/src/assets/lock.svg" alt="lock icon" />
+              <p>Secure 256-bit SSL encryption.</p>
+            </div>
+            <div>
+              <img src="/src/assets/pay-methods.svg" alt="pay methods icons" />
+            </div>
+          </div>
         </div>
     </main>
   )
