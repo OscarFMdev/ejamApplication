@@ -18,19 +18,19 @@ const Header = () => {
     <div className={headerStyles.steps}>
       <ul>
         <li>
-          <img src="" alt="" />
+          <img src="/src/assets/done.svg" alt="" />
           <p>Step 1 : Cart Review</p>
         </li>
         <li>
-          <img src="" alt="" />
+          <img src="/src/assets/done.svg" alt="" />
           <p>Step 2 : Checkout</p>
         </li>
-        <li>
-          <img src="" alt="" />
+        <li className={headerStyles.currentStep}>
+          <img src="/src/assets/current.svg" alt="" />
           <p>Step 3 : Special Offer</p>
         </li>
         <li>
-          <img src="" alt="" />
+          <img src="/src/assets/next.svg" alt="" />
           <p>Step 4 : Confirmation</p>
         </li>
       </ul>
