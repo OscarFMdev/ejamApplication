@@ -1,5 +1,6 @@
 import React from 'react'
 import contentStyles from '../styles/Content.module.scss'
+import { AiOutlineArrowRight } from 'react-icons/ai';
 
 const Content = () => {
   return (
@@ -35,13 +36,21 @@ const Content = () => {
             </li>
             <li>
               <img src="/src/assets/tick.svg" alt="tick icon" />
-              <p>Designed for air rejuvenation</p>
+              <p>Designed for <span>air rejuvenation</span></p>
             </li>
             <li>
               <img src="/src/assets/tick.svg" alt="tick icon" />
-              <p>Perfect for every room in all types of places.</p>
+              <p><span>Perfect for every room</span> in all types of places.</p>
             </li>
           </ul>
+          <div className={contentStyles.discount}>
+            <img src="/src/assets/percentage.svg" alt="percentage icon"/>
+            <p>Save <span>53%</span> and get <span>6 extra Clarifision</span> for only <span>$14 Each.</span></p>
+          </div>
+          <button>
+            <p>Yes - Claim my discount</p>
+            <AiOutlineArrowRight />
+          </button>
         </div>
     </main>
   )
