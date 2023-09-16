@@ -58,7 +58,9 @@ The eJam project involves creating a front-end webpage based on a Figma design. 
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://google.com)
+- [Live Demo Link](https://ejamproject.netlify.app/)
+- [Video Demo](https://www.loom.com/share/dc3f3861ee794696889aa53419f74d8f?sid=4703cdb5-8da1-4e48-a4ea-a703653fdbec)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
