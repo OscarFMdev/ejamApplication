@@ -4,13 +4,14 @@
   background-color: $gray;
   display: flex;
   align-items: center;
+  justify-content: center;
   height: 50px;
   
   ul {
     margin: 0;
     display: flex;
     column-gap: 10%;
-    width: 100%;
+    width: 90%;
     padding: 0 8%;
     justify-content: center;
     li {
@@ -38,7 +39,7 @@
       p {
         font-size: 12px;
         text-transform: uppercase;
-        min-width: 230px;
+        white-space: nowrap;
       }
     }
   }

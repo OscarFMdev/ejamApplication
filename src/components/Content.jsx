@@ -13,7 +13,7 @@ const Content = () => {
           <h2><span>One time only</span> special price for 6 extra Clarifion for only $14 each ($84.00 total!)</h2>
           <div className={contentStyles.appSection}>
             <img src="/src/assets/app-img.svg" alt="app image" className={contentStyles.appImg}/>
-            <div>
+            <div className={contentStyles.appContent}>
               <div className={contentStyles.header}>
                 <h3>Clarifion Air Ionizer</h3>
                 <div className={contentStyles.prices}>
@@ -56,10 +56,12 @@ const Content = () => {
               <div>
                 <p>Free shipping</p>
               </div>
+              <span class="vertical-bar">|</span>
               <div>
                 <img src="/src/assets/lock-mini.svg" alt="lock icon" />
                 <p>Secure 256-bit SSL encryption.</p>
               </div>
+              <span class="vertical-bar">|</span>
               <div>
                 <img src="/src/assets/pay-methods.svg" alt="pay methods icons" />
               </div>
@@ -67,6 +69,11 @@ const Content = () => {
             <div>
               <a href="#">No thanks, I don&apos;t want this</a>
             </div>
+          </section>
+
+          <section className={contentStyles.guaranteeSection}>
+            <img src="/src/assets/certified.svg" alt="guaranteed image" />
+            <p>If you are not completely thrilled with your Clarifion - We have a <span>30 day satisfaction guarantee</span>. Please refer to our return policy at the bottom of the page for more details. Happy Shopping!</p>
           </section>
 
         </div>
