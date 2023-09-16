@@ -7,13 +7,14 @@ footer {
   margin-top: 50px;
   
   .footerContainer {
+    white-space: nowrap;
     height: 88px;
     font-size: 16px;
     color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 80%;
+    width: 90%;
   }
   div {
     display: flex;
@@ -25,5 +26,12 @@ footer {
   .copyright {
     padding-right: 20px;
     border-right: 1px solid white;
+  }
+  @media only screen and (max-width: $tablet) {
+    .footerContainer {
+      font-size: 12px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
   }
 }

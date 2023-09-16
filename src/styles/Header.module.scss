@@ -77,6 +77,10 @@ header {
   }
 
   @media only screen and (max-width: $tablet) {
+    .upperPart,
+    .lowerPart {
+      width: 90%;
+    }
     .steps {
       .stepsSmall {
         display: flex;

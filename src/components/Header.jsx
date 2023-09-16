@@ -7,7 +7,6 @@ const Header = () => {
   useEffect(() => {
     const handleResize = () => {
       const screenWidth = window.innerWidth;
-      // Toggle the flag to show/hide steps based on screen width
       setShowSteps(screenWidth > 1120);
     };
 
