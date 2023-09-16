@@ -49,6 +49,7 @@ header {
   .steps {
     padding: 40px 0;
     width: 100%;
+
     ul {
       list-style: none;
       display: flex;
@@ -62,6 +63,14 @@ header {
       }
       .currentStep {
         font-weight: 700;
+      }
+    }
+
+    .stepsSmall {
+      padding-bottom: 0;
+      li {
+        flex-direction: column;
+        row-gap: 10px;
       }
     }
   }
