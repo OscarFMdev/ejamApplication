@@ -10,7 +10,7 @@ const Footer = () => {
           <p>Clarifionsupport@clarifion.com</p>
         </div>
         <div className={FooterStyles.leftSide}>
-          <img src="/src/assets/lock.svg" alt="lock icon" />
+          <img src="/assets/lock.svg" alt="lock icon" />
           <p>Secure 256-bit SSL encryption.</p>
         </div>
       </div>

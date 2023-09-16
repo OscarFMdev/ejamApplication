@@ -8,19 +8,19 @@ function App() {
   const carouselItems = [
     {
       text:'30-DAY SATISFACTION GUARANTEE',
-      imageURL: "/src/assets/quality.png",
+      imageURL: "/assets/quality.png",
     },
     {
       text: 'Free delivery on orders over $40.00',
-      imageURL: "/src/assets/truck-light.png",
+      imageURL: "/assets/truck-light.png",
     },
     {
       text: '50.000+ HAPPY CUSTOMERS',
-      imageURL: "/src/assets/heart.png"
+      imageURL: "/assets/heart.png"
     },
     {
       text: '100% Money Back Guarantee',
-      imageURL: "/src/assets/money-back.png"
+      imageURL: "/assets/money-back.png"
     }
   ];
 

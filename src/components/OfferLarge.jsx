@@ -5,13 +5,13 @@ const OfferLarge = () => {
   return (
     <>
       <div className={contentStyles.leftSide}>
-          <img src="/src/assets/main-img.svg" alt="how Clarifion works image"/>
-          <img src="/src/assets/testimonial.svg" alt="testimonial image"/>
+          <img src="/assets/main-img.svg" alt="how Clarifion works image"/>
+          <img src="/assets/testimonial.svg" alt="testimonial image"/>
         </div>
         <div className={contentStyles.rightSide}>
           <h2><span>One time only</span> special price for 6 extra Clarifion for only $14 each ($84.00 total!)</h2>
           <div className={contentStyles.appSection}>
-            <img src="/src/assets/app-img.svg" alt="app image" className={contentStyles.appImg}/>
+            <img src="/assets/app-img.svg" alt="app image" className={contentStyles.appImg}/>
             <div className={contentStyles.appContent}>
               <div className={contentStyles.header}>
                 <h3>Clarifion Air Ionizer</h3>
@@ -21,29 +21,29 @@ const OfferLarge = () => {
                 </div>
               </div>
               <div className={contentStyles.stock}>
-                <img src="/src/assets/radio-btn.svg" alt="in stock icon" className={contentStyles.radio}/>
+                <img src="/assets/radio-btn.svg" alt="in stock icon" className={contentStyles.radio}/>
                 <p>12 left in Stock</p>
               </div>
-              <img src="/src/assets/stars.svg" alt="5 stars rating" />
+              <img src="/assets/stars.svg" alt="5 stars rating" />
               <p className={contentStyles.appDesc}>Simply plug a Clarifion into any standard outlet and replace bulky, expensive air purifiers with a simple.</p>
             </div>
           </div>
           <ul className={contentStyles.features}>
             <li>
-              <img src="/src/assets/tick.svg" alt="tick icon" />
+              <img src="/assets/tick.svg" alt="tick icon" />
               <p>Negative Ion Technology may <span>help with allergens</span></p>
             </li>
             <li>
-              <img src="/src/assets/tick.svg" alt="tick icon" />
+              <img src="/assets/tick.svg" alt="tick icon" />
               <p>Designed for <span>air rejuvenation</span></p>
             </li>
             <li>
-              <img src="/src/assets/tick.svg" alt="tick icon" />
+              <img src="/assets/tick.svg" alt="tick icon" />
               <p><span>Perfect for every room</span> in all types of places.</p>
             </li>
           </ul>
           <div className={contentStyles.discount}>
-            <img src="/src/assets/percentage.svg" alt="percentage icon"/>
+            <img src="/assets/percentage.svg" alt="percentage icon"/>
             <p>Save <span>53%</span> and get <span>6 extra Clarifision</span> for only <span>$14 Each.</span></p>
           </div>
           <section className={contentStyles.claimSection}>
@@ -57,12 +57,12 @@ const OfferLarge = () => {
               </div>
               <span className="vertical-bar">|</span>
               <div>
-                <img src="/src/assets/lock-mini.svg" alt="lock icon" />
+                <img src="/assets/lock-mini.svg" alt="lock icon" />
                 <p>Secure 256-bit SSL encryption.</p>
               </div>
               <span className="vertical-bar">|</span>
               <div>
-                <img src="/src/assets/pay-methods.svg" alt="pay methods icons" />
+                <img src="/assets/pay-methods.svg" alt="pay methods icons" />
               </div>
             </div>
             <div>
@@ -71,7 +71,7 @@ const OfferLarge = () => {
           </section>
 
           <section className={contentStyles.guaranteeSection}>
-            <img src="/src/assets/certified.svg" alt="guaranteed image" />
+            <img src="/assets/certified.svg" alt="guaranteed image" />
             <p>If you are not completely thrilled with your Clarifion - We have a <span>30 day satisfaction guarantee</span>. Please refer to our return policy at the bottom of the page for more details. Happy Shopping!</p>
           </section>
 
