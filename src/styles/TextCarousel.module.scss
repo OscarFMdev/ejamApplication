@@ -12,7 +12,7 @@
   .carouselContent {
     display: flex;
     justify-content: space-around;
-    column-gap: 5%;
+    column-gap: 0;
     width: 100%;
   }
 
@@ -21,6 +21,7 @@
     color: white;
     border-style: none;
     font-size: 20px;
+    cursor: pointer;
   }
 
   .carouselItem {
@@ -28,5 +29,7 @@
     column-gap: 10px;
     align-items: center;
     min-width: 260px;
+    cursor: pointer;
+    font-size: 12px;
   }
 }

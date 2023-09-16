@@ -22,7 +22,9 @@ const Header = () => {
   return (
     <header>
     <div className={headerStyles.upperPart}>
-      <img src="/src/assets/logo.svg" alt="logo" />
+      <a href='/'>
+        <img src="/src/assets/logo.svg" alt="logo" className={headerStyles.logo}/>
+      </a>
       <div>
         <img src="/src/assets/mcafee.svg" alt="logo" />
         <img src="/src/assets/norton.svg" alt="logo" />

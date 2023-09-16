@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import CarouselStyles from '../styles/TextCarousel.module.scss'
-import { LiaLessThanSolid, LiaGreaterThanSolid } from 'react-icons/lia'
+import { FaGreaterThan, FaLessThan } from 'react-icons/fa'
 
 const TextCarousel = ({ items }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -42,13 +42,13 @@ const TextCarousel = ({ items }) => {
 
   const renderPrevButton = visibleItems < 4 && (
     <button onClick={goToPrev} className={CarouselStyles.carouselBtn}>
-      <LiaLessThanSolid />
+      <FaLessThan />
     </button>
   );
 
   const renderNextButton = visibleItems < 4 && (
     <button onClick={goToNext} className={CarouselStyles.carouselBtn}>
-      <LiaGreaterThanSolid />
+      <FaGreaterThan />
     </button>
   );
 

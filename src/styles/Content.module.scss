@@ -175,6 +175,10 @@ main {
     justify-content: center;
     row-gap: 40px;
     background-color: white;
+    padding: 0;
+    * {
+      min-width: none;
+    }
     .leftSide {
       width: auto;
     }
@@ -182,5 +186,9 @@ main {
       width: auto;
       padding: 0;
     }
+  }
+
+  @media only screen and (max-width: $tablet) {
+
   }
 }

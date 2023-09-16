@@ -1,3 +1,4 @@
+@import './variables';
 
 header {
   display: flex;
@@ -75,4 +76,44 @@ header {
     }
   }
 
+  @media only screen and (max-width: $tablet) {
+    .steps {
+      .stepsSmall {
+        display: flex;
+        justify-content: space-around;
+        font-size: 12px;
+      }
+    }
+  }
+
+  @media only screen and (max-width: $mobile) {
+    .upperPart {
+      .logo {
+        width: 106px;
+      }
+      div {
+        img {
+          width: 44px;
+          height: auto;
+        }
+      }
+    }
+
+    .lowerPart {
+      h1 {
+        font-size: 32px;
+      }
+      h2 {
+        font-size: 16px;
+      }
+    }
+
+    .steps {
+      .stepsSmall {
+        img {
+          width: 20px;
+        }
+      }
+    }
+  }
 }
