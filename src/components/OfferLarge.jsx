@@ -9,7 +9,7 @@ const OfferLarge = () => {
           <img src="/assets/testimonial.svg" alt="testimonial image"/>
         </div>
         <div className={contentStyles.rightSide}>
-          <h2><span>One time only</span> special price for 6 extra Clarifion for only $14 each ($84.00 total!)</h2>
+          <h2><span>ONE TIME ONLY</span> special price for 6 extra Clarifion for only <span>$14 each</span> ($84.00 total!)</h2>
           <div className={contentStyles.appSection}>
             <img src="/assets/app-img.svg" alt="app image" className={contentStyles.appImg}/>
             <div className={contentStyles.appContent}>

@@ -5,7 +5,7 @@ const OfferSmall = () => {
   return (
     <>
       <div className={contentStyles.leftSideSmall}>
-        <h2><span>One time only</span> special price for 6 extra Clarifion for only $14 each ($84.00 total!)</h2>
+        <h2><span>ONE TIME ONLY</span> special price for 6 extra Clarifion for only <span>$14 each</span> ($84.00 total!)</h2>
           <img src="/assets/main-img.svg" alt="how Clarifion works image"/>
         </div>
         <div className={contentStyles.rightSide}>
